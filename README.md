@@ -6,7 +6,8 @@ It is described in a paper presented at AIAA SciTech 2022: [Gust Load Control De
 
 To get started, check out the [Documentation Wiki](https://github.com/dlr-ft-gla/GLA-Benchmark/wiki).
 
-
+The contents of the benchmark are released under permissive licenses, non-contaminating licenses which do not restrict, among other things, commercial use. 
+The s-functions containing the lidar model and wind reconstruction algorithm are released under a CC-BY-ND 4.0 license, whereas the rest is released under an MIT license. More details can be found in the [Wiki](https://github.com/dlr-ft-gla/GLA-Benchmark/wiki/General-Info).
 
 This benchmark is a work in progress, and will likely be updated in the future.
 
