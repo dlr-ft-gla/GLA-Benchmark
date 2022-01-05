@@ -1,6 +1,6 @@
 ### Welcome to the CRM GLA Benchmark repository!
 
-This is a highly representative benchmark for lidar-based gust load alleviation. It includes an linear servoelastic model of the Common Research model (CRM), a surrogate model of a Doppler lidar wind sensor, and a wind reconstruction algorithm. 
+This is a highly representative benchmark for lidar-based gust load alleviation. It includes a linear aeroelastic model of the Common Research model (CRM), a surrogate model of a Doppler lidar wind sensor, and a wind reconstruction algorithm. 
 
 It is described in a paper presented at AIAA SciTech 2022: [Gust Load Control Design Challenge Including Lidar Wind measurements and Based on the Common Research Model](https://doi.org/10.2514/6.2022-1934))
 
