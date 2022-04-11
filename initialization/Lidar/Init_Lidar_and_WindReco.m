@@ -60,12 +60,11 @@ LIDAR.Geometry.N_bins       = 9;  % [-]
 % rotational speed of the LIDAR measurement direction
 LIDAR.Scanner.RotationFrequency = 13; % [Hz]
 % semi aperture angle of LIDAR measurement cone
-LIDAR.Scanner.SemiApertureAngle = 30; % [deg]
+LIDAR.Scanner.SemiApertureAngle = 15; % [deg]
 
 
 %% Definition of wind field reconstruction algorithm parameters
-% Optimization method
-WindReconstruction.OptimizationMethod = 'Gauss-Newton'; 
+
 % Delay for the first estimation, 
 % necessary to fill the buffer with LIDAR measurements
 WindReconstruction.StartEstimationTime = 4; % s
