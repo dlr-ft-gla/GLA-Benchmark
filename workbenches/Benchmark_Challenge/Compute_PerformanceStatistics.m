@@ -41,6 +41,7 @@ for load_type_idx=1:length(load_types.config)
   
         for idx_case=1:tmp_stats.(load_type_idstr).nb_cases
             load([load_types.config(load_type_idx).directory,filesep,load_types.config(load_type_idx).file_list(idx_case).name]);
+            idx_task = SimResults.TaskDefinition.Task_Idx; % previously: idx_task = idx_case;
             
             % checking that the load type in the file matches the expected one
             if ~strcmp(load_type_idstr , SimResults.TaskDefinition.Load_Type)
@@ -60,15 +61,15 @@ for load_type_idx=1:length(load_types.config)
                 % since not all controllers are active in every configuration,
                 % the number of fields and their names can differ
                 for idx_Fieldname=1:length(tmp_Fieldnames)
-                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).max(idx_case,:) = max(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,[],1) ;
-                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).min(idx_case,:) = min(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,[],1) ;
+                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).max(idx_task,:) = max(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,[],1) ;
+                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).min(idx_task,:) = min(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,[],1) ;
                     
-                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).std(idx_case,:) = std(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,0,1) ;
-                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).mean(idx_case,:) = mean(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,1) ;
+                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).std(idx_task,:) = std(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,0,1) ;
+                    Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).mean(idx_task,:) = mean(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values,1) ;
                     
                     %PIP:
                     if strcmp(load_type_idstr, 'CS25_341b')                        
-                        Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).PIP(idx_case,:) = Compute_PIP(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values(:,idx_az),...
+                        Evaluations.Configurations(idx_config).(load_type_idstr).(tmp_Fieldnames{idx_Fieldname}).PIP(idx_task,:) = Compute_PIP(tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values(:,idx_az),...
                                                                                                                                          tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).signals.values(:,idx_q),...
                                                                                                                                          tmp_Data.(tmp_first_Fieldnames{idx_Fieldname}).time);
                     end

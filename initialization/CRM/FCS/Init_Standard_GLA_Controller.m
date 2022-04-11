@@ -73,29 +73,7 @@ WindEst.dt = GLA.dt;
 
 WindEst.t_coords_ctrl = [-WindEst.trail:max(0,WindEst.horizon)].*WindEst.dt;
 
-
-if WindEst.horizon < 0
-    WindEst.A = [];
-    WindEst.B = [];
-    WindEst.C = [];
-    WindEst.D = [0];
-    
-else
-    totalHorizon_tmp = WindEst.horizon + WindEst.trail;
-    % x1 corresponds to the most recent measurement, successive states are delayed by one timestep.
-    % Output is in opposite order due to how the laws are structured, i.e. most recent measurement is last.
-    WindEst.A = [zeros(1, totalHorizon_tmp); eye( totalHorizon_tmp-1) zeros( totalHorizon_tmp-1,1)]; 
-    WindEst.B = [1; zeros( totalHorizon_tmp-1,1)];
-    WindEst.C = [flipud(eye( totalHorizon_tmp));zeros(1,  totalHorizon_tmp)];
-    WindEst.D = [zeros( totalHorizon_tmp,1);1];
-%     feedbackOnly = 0;
-    clear totalHorizon_tmp
-end
-%
-
-% CRM.Sensors.WindEst = WindEst;
 GLA.WindEst = WindEst;
 clear WindEst
 
 end
-
