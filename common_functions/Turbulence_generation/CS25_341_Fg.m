@@ -1,5 +1,5 @@
-function Fg = CS25_341_Fg(Zmo,MTOW,MLW,MZFW)
-% function Fg = CS25_341_Fg(Zmo,MTOW,MLW,MZFW)
+function Fg = CS25_341_Fg(alt, Zmo,MTOW,MLW,MZFW)
+% function Fg = CS25_341_Fg(alt, Zmo,MTOW,MLW,MZFW)
 %
 % Calculates the nondimensional flight profile alleviation factor Fg as
 % defined in CS25.341(a)(6). Reference: CS25 Amendment 26 (July 2021)
@@ -8,6 +8,7 @@ function Fg = CS25_341_Fg(Zmo,MTOW,MLW,MZFW)
 %               Daniel Kiehn (daniel.kiehn@dlr.de)
 %
 % Inputs:
+% alt       Aircraft altitude in m
 % Zmo       Maximum operation altitude in m, according to CS25.1527
 % MTOW      Maximum take-off weight
 % MLW       Maximum landing weight
@@ -32,6 +33,8 @@ R2 = MZFW/MTOW;
 
 Fgm = sqrt(R2*tan(pi*R1/4));
 
-Fg = 0.5*(Fgz + Fgm);
+Fg_sl = 0.5*(Fgz + Fgm); % Fg at sea level
+
+Fg = Fg_sl + (1-Fg_sl)*(alt/Zmo);
 
 end

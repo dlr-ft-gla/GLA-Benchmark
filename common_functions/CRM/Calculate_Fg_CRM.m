@@ -12,9 +12,7 @@ MTOW = 260000;  % (kg)
 MZFW = 195000;   % (kg)
 MLW = 200000;   % (kg)
 
-F_g0 = CS25_341_Fg(Zmo, MTOW, MLW, MZFW);
-
-F_g = F_g0 + (1-F_g0)*(alt/Zmo);
+F_g = CS25_341_Fg(alt, Zmo, MTOW, MLW, MZFW);
 
 end
 
