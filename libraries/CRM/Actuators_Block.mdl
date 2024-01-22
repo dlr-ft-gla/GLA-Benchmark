@@ -2,8 +2,11 @@ Library {
   Name			  "Actuators_Block"
   Version		  8.8
   SavedCharacterEncoding  "windows-1252"
-  DiagnosticSuppressor	  "on"
+  LogicAnalyzerGraphicalSettings ""
   LogicAnalyzerPlugin	  "on"
+  LogicAnalyzerSignalOrdering ""
+  DiagnosticSuppressor	  "on"
+  SuppressorTable	  "22 serialization::archive 11 0 3 0 0 0 8 0"
   LibraryType		  "BlockLibrary"
   ScopeRefreshTime	  0.035000
   OverrideScopeRefreshTime on
@@ -20,12 +23,12 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [1912.0, -8.0, 1936.0, 1176.0]
+      Location		      [-1169.0, 101.0, 574.0, 503.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
 	$ClassName		"Simulink.ModelBrowserInfo"
-	Visible			[1]
+	Visible			[0]
 	DockPosition		"Left"
 	Width			[50]
 	Height			[50]
@@ -44,9 +47,9 @@ Library {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1820.0, 1004.0]
-	ZoomFactor		[1.75]
-	Offset			[-240.0, -65.857142857142833]
+	Extents			[658.0, 424.0]
+	ZoomFactor		[1.0]
+	Offset			[0.0, 0.0]
       }
       Object {
 	$PropName		"DockComponentsInfo"
@@ -54,37 +57,35 @@ Library {
 	$ClassName		"Simulink.DockComponentInfo"
 	Type			"GLUE2:PropertyInspector"
 	ID			"Property Inspector"
-	Visible			[1]
+	Visible			[0]
 	CreateCallback		""
 	UserData		""
 	Floating		[0]
 	DockPosition		"Right"
-	Width			[640]
-	Height			[480]
+	Width			[512]
+	Height			[384]
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB0AP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAABrAD///8AAAdCAAAEJAAAAAEAAAACAAAAAQAAAAL8AAAABAAAAAAAAAABAAAANgBjAG8AbABsAGEAcABzAGkAY"
-      "gBsAGUAUABhAG4AZQBsAFQAbwBvAGwAQgBhAHIATABlAGYAdAMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAA4AGMAbwBsAGwAYQBwAHMAaQBiA"
-      "GwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBSAGkAZwBoAHQDAAAAAP////8AAAAAAAAAAAAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAAMAD///8AAAK7AAAB6QAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAEo/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAA6AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlA"
-      "GwAVABvAG8AbABCAGEAcgBCAG8AdAB0AG8AbQAAAAAA/////wAAAAAAAAAA"
+      "////wEAAACR/////wAAAAAAAAAA/////wEAAAEE/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFh/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
   Created		  "Fri Mar 04 12:05:53 2022"
   Creator		  "cava_da"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "cava_da"
+  LastModifiedBy	  "kieh_da"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Apr 05 09:51:34 2022"
-  RTWModifiedTimeStamp	  571053094
-  ModelVersionFormat	  "1.%<AutoIncrement:5>"
+  LastModifiedDate	  "Mon Jan 22 08:11:01 2024"
+  RTWModifiedTimeStamp	  627811857
+  ModelVersionFormat	  "1.%<AutoIncrement:8>"
+  ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -164,12 +165,12 @@ Library {
 	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
-	  Components		  []
 	  StartTime		  "0.0"
 	  StopTime		  "10.0"
 	  AbsTol		  "auto"
 	  FixedStep		  "auto"
 	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
 	  MaxOrder		  5
 	  ZcThreshold		  "auto"
 	  ConsecutiveZCsStepRelTol "10*128*eps"
@@ -204,7 +205,6 @@ Library {
 	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
-	  Components		  []
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
 	  FinalStateName	  "xFinal"
@@ -257,7 +257,6 @@ Library {
 	    PropName		    "DisabledProps"
 	  }
 	  Description		  ""
-	  Components		  []
 	  BlockReduction	  on
 	  BooleanDataType	  on
 	  ConditionallyExecuteInputs on
@@ -309,7 +308,6 @@ Library {
 	    PropName		    "DisabledProps"
 	  }
 	  Description		  ""
-	  Components		  []
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
 	  ArrayBoundsChecking	  "none"
@@ -413,7 +411,6 @@ Library {
 	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
-	  Components		  []
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
 	  ProdBitPerInt		  32
@@ -462,7 +459,6 @@ Library {
 	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
-	  Components		  []
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
 	  EnableRefExpFcnMdlSchedulingChecks on
 	  CheckModelReferenceTargetMessage "error"
@@ -482,7 +478,6 @@ Library {
 	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
-	  Components		  []
 	  SimCustomSourceCode	  ""
 	  SimCustomHeaderCode	  ""
 	  SimCustomInitializer	  ""
@@ -542,6 +537,7 @@ Library {
 	  PostCodeGenCommand	  ""
 	  Description		  ""
 	  GenerateReport	  off
+	  SaveLog		  off
 	  RTWVerbose		  on
 	  RetainRTWFile		  off
 	  RTWBuildHooks		  []
@@ -628,21 +624,23 @@ Library {
 		PropName		"DisabledProps"
 	      }
 	      Description	      ""
-	      Components	      []
 	      Comment		      ""
 	      ForceParamTrailComments off
 	      GenerateComments	      on
 	      CommentStyle	      "Auto"
 	      IgnoreCustomStorageClasses on
 	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
 	      MaxIdLength	      31
 	      PreserveName	      off
 	      PreserveNameWithParent  off
 	      ShowEliminatedStatement off
 	      OperatorAnnotations     off
+	      IncAutoGenComments      off
 	      SimulinkDataObjDesc     off
 	      SFDataObjDesc	      off
 	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
 	      MangleLength	      1
 	      CustomSymbolStrGlobalVar "$R$N$M"
 	      CustomSymbolStrType     "$N$R$M_T"
@@ -700,7 +698,6 @@ Library {
 		PropName		"DisabledProps"
 	      }
 	      Description	      ""
-	      Components	      []
 	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
 	      TargetLibSuffix	      ""
 	      TargetPreCompLibLocation ""
@@ -709,6 +706,7 @@ Library {
 	      CodeReplacementLibrary  "None"
 	      UtilityFuncGeneration   "Auto"
 	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
 	      MultiwordLength	      2048
 	      GenerateFullHeader      on
 	      InferredTypesCompatibility off
@@ -724,6 +722,7 @@ Library {
 	      CombineOutputUpdateFcns on
 	      CombineSignalStateStructs	off
 	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
 	      IncludeFileDelimiter    "Auto"
 	      ERTCustomFileBanners    off
 	      SupportAbsoluteTime     on
@@ -775,7 +774,6 @@ Library {
 	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
-	  Components		  []
 	  Name			  "Simulink Coverage"
 	  CovEnable		  off
 	  CovScope		  "EntireSystem"
@@ -813,9 +811,9 @@ Library {
 	PropName		"Components"
       }
       Name		      "Configuration"
-      CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition    [ 145, 177, 1135, 847 ]
       ExtraOptions	      ""
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 145, 177, 1135, 847 ] 
     }
     PropName		    "ConfigurationSets"
   }
@@ -874,7 +872,7 @@ Library {
     Block {
       BlockType		      BusSelector
       OutputSignals	      "signal1,signal2,signal3"
-      OutputAsBus	      "off"
+      OutputAsBus	      off
     }
     Block {
       BlockType		      Constant
@@ -934,8 +932,6 @@ Library {
       SourceOfInitialOutputValue "Dialog"
       OutputWhenDisabled      "held"
       InitialOutput	      "[]"
-      MustResolveToSignalObject	off
-      OutputWhenUnConnected   off
     }
     Block {
       BlockType		      S-Function
@@ -976,7 +972,6 @@ Library {
       Opaque		      off
       MaskHideContents	      off
       SFBlockType	      "NONE"
-      Variant		      off
       GeneratePreprocessorConditionals off
       PropagateVariantConditions off
       TreatAsGroupedWhenPropagatingVariantConditions on
@@ -989,9 +984,9 @@ Library {
   }
   System {
     Name		    "Actuators_Block"
-    Location		    [1912, -8, 3848, 1168]
-    Open		    off
-    ModelBrowserVisibility  on
+    Location		    [-1169, 101, -595, 604]
+    Open		    on
+    ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
     PaperOrientation	    "landscape"
@@ -1001,290 +996,24 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "175"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "63"
-    Block {
-      BlockType		      SubSystem
-      Name		      "Actuators"
-      SID		      "1"
-      Ports		      [1, 1]
-      Position		      [175, 44, 385, 186]
-      ZOrder		      68
-      BackgroundColor	      "cyan"
-      RequestExecContextInheritance off
-      System {
-	Name			"Actuators"
-	Location		[1912, -8, 3848, 1168]
-	Open			off
-	ModelBrowserVisibility	on
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"usletter"
-	PaperUnits		"inches"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"175"
-	Block {
-	  BlockType		  Inport
-	  Name			  "Control_Commands"
-	  SID			  "2"
-	  Position		  [-55, 118, -25, 132]
-	  ZOrder		  20
-	  BackgroundColor	  "yellow"
-	  IconDisplay		  "Port number"
-	}
-	Block {
-	  BlockType		  BusSelector
-	  Name			  "Bus\nSelector"
-	  SID			  "3"
-	  Ports			  [1, 3]
-	  Position		  [165, 21, 170, 229]
-	  ZOrder		  16
-	  ShowName		  off
-	  OutputSignals		  "da_sym_in_c [deg],da_sym_out_c [deg],de_c [deg]"
-	  Port {
-	    PortNumber		    1
-	    Name		    "<da_sym_in_c [deg]>"
-	  }
-	  Port {
-	    PortNumber		    2
-	    Name		    "<da_sym_out_c [deg]>"
-	  }
-	  Port {
-	    PortNumber		    3
-	    Name		    "<de_c [deg]>"
-	  }
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Control Interconnection"
-	  SID			  "4"
-	  Ports			  [5, 1]
-	  Position		  [695, 38, 955, 212]
-	  ZOrder		  5
-	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "1.105"
-	  SourceBlock		  "lib_Sim_CRM/Control_Interconnection"
-	  SourceType		  "Control interconnection block"
-	  ContentPreviewEnabled	  off
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Delay_Elev"
-	  SID			  "5"
-	  Ports			  [1, 1]
-	  Position		  [270, 174, 335, 216]
-	  ZOrder		  92
-	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "1.105"
-	  SourceBlock		  "lib_Sim_CRM/Actuator_Delay"
-	  SourceType		  "Actuator Delay"
-	  ContentPreviewEnabled	  off
-	  Act_Delay		  "CRM.Actuators.Global_Delay"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Delay_InnerAil"
-	  SID			  "6"
-	  Ports			  [1, 1]
-	  Position		  [270, 34, 335, 76]
-	  ZOrder		  90
-	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "1.105"
-	  SourceBlock		  "lib_Sim_CRM/Actuator_Delay"
-	  SourceType		  "Actuator Delay"
-	  ContentPreviewEnabled	  off
-	  Act_Delay		  "CRM.Actuators.Global_Delay"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Delay_OuterAil"
-	  SID			  "7"
-	  Ports			  [1, 1]
-	  Position		  [270, 104, 335, 146]
-	  ZOrder		  91
-	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "1.105"
-	  SourceBlock		  "lib_Sim_CRM/Actuator_Delay"
-	  SourceType		  "Actuator Delay"
-	  ContentPreviewEnabled	  off
-	  Act_Delay		  "CRM.Actuators.Global_Delay"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Elevator Actuator"
-	  SID			  "8"
-	  Ports			  [1, 1]
-	  Position		  [405, 168, 590, 222]
-	  ZOrder		  19
-	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "1.105"
-	  SourceBlock		  "lib_Sim_CRM/Limited_Second_Order_Actuator"
-	  SourceType		  "Second-Order Actuator"
-	  ContentPreviewEnabled	  off
-	  actuatorName		  "CRM.Actuators.Elevator"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Inner Aileron Actuator"
-	  SID			  "9"
-	  Ports			  [1, 1]
-	  Position		  [405, 28, 590, 82]
-	  ZOrder		  17
-	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "1.105"
-	  SourceBlock		  "lib_Sim_CRM/Limited_Second_Order_Actuator"
-	  SourceType		  "Second-Order Actuator"
-	  ContentPreviewEnabled	  off
-	  actuatorName		  "CRM.Actuators.InnerAileron"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Outer Aileron Actuator"
-	  SID			  "10"
-	  Ports			  [1, 1]
-	  Position		  [405, 98, 590, 152]
-	  ZOrder		  18
-	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "1.105"
-	  SourceBlock		  "lib_Sim_CRM/Limited_Second_Order_Actuator"
-	  SourceType		  "Second-Order Actuator"
-	  ContentPreviewEnabled	  off
-	  actuatorName		  "CRM.Actuators.OuterAileron"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Actuator_Motion"
-	  SID			  "11"
-	  Position		  [1030, 118, 1060, 132]
-	  ZOrder		  21
-	  BackgroundColor	  "magenta"
-	  IconDisplay		  "Port number"
-	}
-	Line {
-	  ZOrder		  1
-	  SrcBlock		  "Inner Aileron Actuator"
-	  SrcPort		  1
-	  Points		  [45, 0]
-	  Branch {
-	    ZOrder		    2
-	    DstBlock		    "Control Interconnection"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    3
-	    Points		    [0, 70]
-	    DstBlock		    "Control Interconnection"
-	    DstPort		    3
-	  }
-	}
-	Line {
-	  ZOrder		  4
-	  SrcBlock		  "Outer Aileron Actuator"
-	  SrcPort		  1
-	  Points		  [20, 0]
-	  Branch {
-	    ZOrder		    5
-	    Points		    [0, 35]
-	    DstBlock		    "Control Interconnection"
-	    DstPort		    4
-	  }
-	  Branch {
-	    ZOrder		    6
-	    Points		    [0, -35]
-	    DstBlock		    "Control Interconnection"
-	    DstPort		    2
-	  }
-	}
-	Line {
-	  ZOrder		  7
-	  SrcBlock		  "Elevator Actuator"
-	  SrcPort		  1
-	  DstBlock		  "Control Interconnection"
-	  DstPort		  5
-	}
-	Line {
-	  Name			  "<da_sym_in_c [deg]>"
-	  ZOrder		  8
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  1
-	  DstBlock		  "Delay_InnerAil"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  9
-	  SrcBlock		  "Control Interconnection"
-	  SrcPort		  1
-	  DstBlock		  "Actuator_Motion"
-	  DstPort		  1
-	}
-	Line {
-	  Name			  "<de_c [deg]>"
-	  ZOrder		  10
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  3
-	  DstBlock		  "Delay_Elev"
-	  DstPort		  1
-	}
-	Line {
-	  Name			  "<da_sym_out_c [deg]>"
-	  ZOrder		  11
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  2
-	  DstBlock		  "Delay_OuterAil"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  12
-	  SrcBlock		  "Control_Commands"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nSelector"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  13
-	  SrcBlock		  "Delay_Elev"
-	  SrcPort		  1
-	  DstBlock		  "Elevator Actuator"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  14
-	  SrcBlock		  "Delay_InnerAil"
-	  SrcPort		  1
-	  DstBlock		  "Inner Aileron Actuator"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  15
-	  SrcBlock		  "Delay_OuterAil"
-	  SrcPort		  1
-	  DstBlock		  "Outer Aileron Actuator"
-	  DstPort		  1
-	}
-      }
-    }
+    SIDHighWatermark	    "64"
     Block {
       BlockType		      SubSystem
       Name		      "Actuators_Sfun"
       SID		      "12"
       Ports		      [1, 1]
-      Position		      [175, 238, 385, 382]
+      Position		      [120, 63, 330, 207]
       ZOrder		      69
       BackgroundColor	      "cyan"
       RequestExecContextInheritance off
+      Variant		      off
       System {
 	Name			"Actuators_Sfun"
-	Location		[1912, -8, 3848, 1168]
+	Location		[-1461, 19, -98, 817]
 	Open			off
-	ModelBrowserVisibility	on
+	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
 	PaperOrientation	"landscape"
@@ -1294,7 +1023,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"175"
+	ZoomFactor		"100"
 	Block {
 	  BlockType		  Inport
 	  Name			  "Control_Commands"
@@ -1313,26 +1042,33 @@ Library {
 	  ZOrder		  99
 	  BackgroundColor	  "cyan"
 	  RequestExecContextInheritance	off
+	  Variant		  off
 	  Port {
 	    PortNumber		    1
 	    Name		    "Positions [deg]"
 	    PropagatedSignals	    "Positions [deg]"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	  Port {
 	    PortNumber		    2
 	    Name		    "Rates [deg/s]"
 	    PropagatedSignals	    "Rates [deg/s]"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	  Port {
 	    PortNumber		    3
 	    Name		    "Accelerations [deg/s^2]"
 	    PropagatedSignals	    "Accelerations [deg/s^2]"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	  System {
 	    Name		    "Actuator dynamics"
-	    Location		    [653, 211, 1467, 744]
+	    Location		    [-1461, 19, -98, 817]
 	    Open		    off
-	    ModelBrowserVisibility  on
+	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
 	    PaperOrientation	    "landscape"
@@ -1342,7 +1078,7 @@ Library {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "60"
+	    ZoomFactor		    "100"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "Command"
@@ -1355,6 +1091,82 @@ Library {
 		PortNumber		1
 		Name			"Position command [deg]"
 		PropagatedSignals	"Deflection commands [deg]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      S-Function
+	      Name		      "2nd order dynamic actuator model S-function"
+	      SID		      "64"
+	      Ports		      [16, 6]
+	      Position		      [400, 22, 585, 463]
+	      ZOrder		      1
+	      BackgroundColor	      "lightBlue"
+	      FunctionName	      "sfun_second_order_wLimits"
+	      Parameters	      "N_Actuators"
+	      SFunctionDeploymentMode off
+	      EnableBusSupport	      off
+	      SFcnIsStateOwnerBlock   off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		19
+		$ClassName		"Simulink.Mask"
+		Display			"port_label('input',1,'u');\nport_label('input',2,'run');\nport_label('input',3,'reset');\nport_label('inp"
+		"ut',4,'Trim_Lin');\nport_label('input',5,'acc_lim_up');\nport_label('input',6,'acc_lim_low');\nport_label('input',7,"
+		"'rate_lim_up');\nport_label('input',8,'rate_lim_low');\nport_label('input',9,'pos_lim_up');\nport_label('input',10,'"
+		"pos_lim_low');\nport_label('input',11,'xi');\nport_label('input',12,'omega');\nport_label('input',13,'K');\nport_lab"
+		"el('input',14,'x0');\nport_label('input',15,'xdot0');\nport_label('input',16,'delta_acc');\n\nport_label('output',1,"
+		"'pos');\nport_label('output',2,'rate');\nport_label('output',3,'acc');\nport_label('output',4,'sat_pos');\nport_labe"
+		"l('output',5,'sat_rate');\nport_label('output',6,'sat_acc');\n\ndisp('  2^{nd} order \\newline   actuator \\newline "
+		"     with \\newline dynamical \\newline     limits\\newline \\newline     v2.00 \\newline \\newline  Copyright \\new"
+		"line    DLR-FT\\newline \\newline \\newline \\newline \\newline \\newline \\newline \\newline \\newline \\newline \\"
+		"newline \\newline '...\n     ,'texmode'...\n     ,'on')"
+		Object {
+		  $PropName		  "Parameters"
+		  $ObjectID		  20
+		  $ClassName		  "Simulink.MaskParameter"
+		  Type			  "edit"
+		  Name			  "N_Actuators"
+		  Prompt		  "Number of actuators"
+		  Value			  "3"
+		}
+	      }
+	      Port {
+		PortNumber		1
+		Name			"Positions [deg]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	      Port {
+		PortNumber		2
+		Name			"Rates [deg/s]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	      Port {
+		PortNumber		3
+		Name			"Accelerations [deg/s^2]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	      Port {
+		PortNumber		4
+		Name			"Position saturation flag"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	      Port {
+		PortNumber		5
+		Name			"Rate saturation flag"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	      Port {
+		PortNumber		6
+		Name			"Acceleration saturation flag"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1368,6 +1180,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Upper acceleration limit [deg/s^2]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1410,6 +1224,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Initial deflections [deg]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1423,32 +1239,23 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Initial rates [deg/s]"
-	      }
-	    }
-	    Block {
-	      BlockType		      Constant
-	      Name		      "Constant15"
-	      SID		      "34"
-	      Position		      [50, 422, 165, 438]
-	      ZOrder		      -8
-	      ShowName		      off
-	      Value		      "[0; 0; 0]"
-	      Port {
-		PortNumber		1
-		Name			"Additional (external) rate [deg/s]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
 	      BlockType		      Constant
 	      Name		      "Constant16"
 	      SID		      "35"
-	      Position		      [50, 447, 165, 463]
+	      Position		      [50, 422, 165, 438]
 	      ZOrder		      -9
 	      ShowName		      off
 	      Value		      "[0; 0; 0]"
 	      Port {
 		PortNumber		1
 		Name			"Additional (external) acceleration [deg/s^2]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1462,6 +1269,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Lower acceleration limit [deg/s^2]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1475,6 +1284,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Damping ratio [-]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1489,6 +1300,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Upper rate limit [deg/s]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1503,6 +1316,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Lower rate limit [deg/s]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1517,6 +1332,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Upper position limit [deg]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1531,6 +1348,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Lower position limit [deg]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1544,6 +1363,8 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Angular eigenfrequency [deg/s]"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
@@ -1557,83 +1378,36 @@ Library {
 	      Port {
 		PortNumber		1
 		Name			"Gain [-]"
-	      }
-	    }
-	    Block {
-	      BlockType		      S-Function
-	      Name		      "S-Function"
-	      SID		      "44"
-	      Ports		      [17, 6]
-	      Position		      [385, 33, 655, 477]
-	      ZOrder		      -18
-	      FunctionName	      "second_order_wLimits"
-	      Parameters	      "3"
-	      SFunctionDeploymentMode off
-	      EnableBusSupport	      off
-	      SFcnIsStateOwnerBlock   off
-	      Object {
-		$PropName		"MaskObject"
-		$ObjectID		19
-		$ClassName		"Simulink.Mask"
-		Display			"port_label('input',1,'command');\nport_label('input',2,'run');\nport_label('input',3,'reset');\nport_labe"
-		"l('input',4,'Trim_Lin');\nport_label('input',5,'acc_lim_up');\nport_label('input',6,'acc_lim_low');\nport_label('inp"
-		"ut',7,'rate_lim_up');\nport_label('input',8,'rate_lim_low');\nport_label('input',9,'pos_lim_up');\nport_label('input"
-		"',10,'pos_lim_low');\nport_label('input',11,'xi');\nport_label('input',12,'omega');\nport_label('input',13,'K');\npo"
-		"rt_label('input',14,'x0');\nport_label('input',15,'xdot0');\nport_label('input',16,'delta_x_dot');\nport_label('inpu"
-		"t',17,'delta_x_dotdot');\n\nport_label('output',1,'x');\nport_label('output',2,'xdot');\nport_label('output',3,'xdot"
-		"dot');\nport_label('output',4,'sat_pos');\nport_label('output',5,'sat_rate');\nport_label('output',6,'sat_acc');"
-	      }
-	      Port {
-		PortNumber		1
-		Name			"Positions [deg]"
-	      }
-	      Port {
-		PortNumber		2
-		Name			"Rates [deg/s]"
-	      }
-	      Port {
-		PortNumber		3
-		Name			"Accelerations [deg/s^2]"
-	      }
-	      Port {
-		PortNumber		4
-		Name			"Position saturation flag"
-	      }
-	      Port {
-		PortNumber		5
-		Name			"Rate saturation flag"
-	      }
-	      Port {
-		PortNumber		6
-		Name			"Acceleration saturation flag"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
 	      }
 	    }
 	    Block {
 	      BlockType		      Terminator
 	      Name		      "Terminator"
 	      SID		      "45"
-	      Position		      [810, 285, 830, 305]
+	      Position		      [735, 270, 755, 290]
 	      ZOrder		      -19
 	    }
 	    Block {
 	      BlockType		      Terminator
 	      Name		      "Terminator1"
 	      SID		      "46"
-	      Position		      [810, 360, 830, 380]
+	      Position		      [735, 345, 755, 365]
 	      ZOrder		      -20
 	    }
 	    Block {
 	      BlockType		      Terminator
 	      Name		      "Terminator2"
 	      SID		      "47"
-	      Position		      [810, 435, 830, 455]
+	      Position		      [735, 420, 755, 440]
 	      ZOrder		      -21
 	    }
 	    Block {
 	      BlockType		      Outport
 	      Name		      "pos"
 	      SID		      "48"
-	      Position		      [805, 63, 835, 77]
+	      Position		      [730, 48, 760, 62]
 	      ZOrder		      -22
 	      BackgroundColor	      "magenta"
 	      IconDisplay	      "Port number"
@@ -1642,7 +1416,7 @@ Library {
 	      BlockType		      Outport
 	      Name		      "rate"
 	      SID		      "49"
-	      Position		      [805, 138, 835, 152]
+	      Position		      [730, 123, 760, 137]
 	      ZOrder		      -23
 	      BackgroundColor	      "magenta"
 	      Port		      "2"
@@ -1652,7 +1426,7 @@ Library {
 	      BlockType		      Outport
 	      Name		      "acc"
 	      SID		      "50"
-	      Position		      [805, 213, 835, 227]
+	      Position		      [730, 198, 760, 212]
 	      ZOrder		      -24
 	      BackgroundColor	      "magenta"
 	      Port		      "3"
@@ -1660,210 +1434,203 @@ Library {
 	    }
 	    Line {
 	      Name		      "Position command [deg]"
-	      ZOrder		      1
+	      ZOrder		      38
 	      Labels		      [1, 1]
 	      SrcBlock		      "Command"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      2
+	      ZOrder		      36
 	      SrcBlock		      "Constant12"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      4
 	    }
 	    Line {
-	      ZOrder		      3
+	      ZOrder		      31
 	      SrcBlock		      "Constant11"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      3
 	    }
 	    Line {
 	      Name		      "Upper acceleration limit [deg/s^2]"
-	      ZOrder		      4
+	      ZOrder		      25
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant1"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      5
 	    }
 	    Line {
 	      Name		      "Lower acceleration limit [deg/s^2]"
-	      ZOrder		      5
+	      ZOrder		      28
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant2"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      6
 	    }
 	    Line {
 	      Name		      "Upper rate limit [deg/s]"
-	      ZOrder		      6
+	      ZOrder		      32
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant4"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      7
 	    }
 	    Line {
 	      Name		      "Lower rate limit [deg/s]"
-	      ZOrder		      7
+	      ZOrder		      33
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant5"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      8
 	    }
 	    Line {
 	      Name		      "Damping ratio [-]"
-	      ZOrder		      8
+	      ZOrder		      27
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant3"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      11
 	    }
 	    Line {
 	      Name		      "Gain [-]"
-	      ZOrder		      9
+	      ZOrder		      37
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant9"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      13
 	    }
 	    Line {
 	      Name		      "Initial deflections [deg]"
-	      ZOrder		      10
+	      ZOrder		      35
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant13"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      14
 	    }
 	    Line {
 	      Name		      "Angular eigenfrequency [deg/s]"
-	      ZOrder		      11
+	      ZOrder		      24
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant8"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      12
 	    }
 	    Line {
 	      Name		      "Initial rates [deg/s]"
-	      ZOrder		      12
+	      ZOrder		      26
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant14"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      15
 	    }
 	    Line {
 	      Name		      "Positions [deg]"
-	      ZOrder		      13
+	      ZOrder		      45
 	      Labels		      [1, 1]
-	      SrcBlock		      "S-Function"
+	      SrcBlock		      "2nd order dynamic actuator model S-function"
 	      SrcPort		      1
 	      DstBlock		      "pos"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "Rates [deg/s]"
-	      ZOrder		      14
+	      ZOrder		      43
 	      Labels		      [1, 1]
-	      SrcBlock		      "S-Function"
+	      SrcBlock		      "2nd order dynamic actuator model S-function"
 	      SrcPort		      2
 	      DstBlock		      "rate"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "Accelerations [deg/s^2]"
-	      ZOrder		      15
+	      ZOrder		      42
 	      Labels		      [1, 1]
-	      SrcBlock		      "S-Function"
+	      SrcBlock		      "2nd order dynamic actuator model S-function"
 	      SrcPort		      3
 	      DstBlock		      "acc"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "Position saturation flag"
-	      ZOrder		      16
+	      ZOrder		      44
 	      Labels		      [1, 1]
-	      SrcBlock		      "S-Function"
+	      SrcBlock		      "2nd order dynamic actuator model S-function"
 	      SrcPort		      4
 	      DstBlock		      "Terminator"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "Rate saturation flag"
-	      ZOrder		      17
+	      ZOrder		      40
 	      Labels		      [1, 1]
-	      SrcBlock		      "S-Function"
+	      SrcBlock		      "2nd order dynamic actuator model S-function"
 	      SrcPort		      5
 	      DstBlock		      "Terminator1"
 	      DstPort		      1
 	    }
 	    Line {
 	      Name		      "Acceleration saturation flag"
-	      ZOrder		      18
+	      ZOrder		      41
 	      Labels		      [-1, 0]
-	      SrcBlock		      "S-Function"
+	      SrcBlock		      "2nd order dynamic actuator model S-function"
 	      SrcPort		      6
 	      DstBlock		      "Terminator2"
 	      DstPort		      1
 	    }
 	    Line {
-	      Name		      "Additional (external) rate [deg/s]"
-	      ZOrder		      19
+	      Name		      "Additional (external) acceleration [deg/s^2]"
+	      ZOrder		      39
 	      Labels		      [1, 1]
-	      SrcBlock		      "Constant15"
+	      SrcBlock		      "Constant16"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      16
 	    }
 	    Line {
-	      Name		      "Additional (external) acceleration [deg/s^2]"
-	      ZOrder		      20
-	      Labels		      [0, 0]
-	      SrcBlock		      "Constant16"
-	      SrcPort		      1
-	      DstBlock		      "S-Function"
-	      DstPort		      17
-	    }
-	    Line {
 	      Name		      "Upper position limit [deg]"
-	      ZOrder		      21
+	      ZOrder		      34
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant6"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      9
 	    }
 	    Line {
 	      Name		      "Lower position limit [deg]"
-	      ZOrder		      22
+	      ZOrder		      29
 	      Labels		      [1, 1]
 	      SrcBlock		      "Constant7"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      10
 	    }
 	    Line {
-	      ZOrder		      23
+	      ZOrder		      30
 	      SrcBlock		      "Constant10"
 	      SrcPort		      1
-	      DstBlock		      "S-Function"
+	      DstBlock		      "2nd order dynamic actuator model S-function"
 	      DstPort		      2
 	    }
 	    Annotation {
 	      SID		      "52"
 	      Name		      "S-function parameter = number of actuators"
-	      Position		      [515, 524, 710, 538]
+	      Position		      [395, -21, 590, -6]
 	      InternalMargins	      [0, 0, 0, 0]
+	      FixedHeight	      off
+	      FixedWidth	      off
 	      HorizontalAlignment     "center"
 	      VerticalAlignment	      "middle"
 	      ZOrder		      -1
@@ -1871,8 +1638,10 @@ Library {
 	    Annotation {
 	      SID		      "51"
 	      Name		      "Order of actuators:\n#1: Inner aileron\n#2: Outer aileron\n#3: Elevator"
-	      Position		      [72, 1, 157, 51]
+	      Position		      [72, 1, 157, 55]
 	      InternalMargins	      [0, 0, 0, 0]
+	      FixedHeight	      off
+	      FixedWidth	      off
 	      HorizontalAlignment     "center"
 	      VerticalAlignment	      "middle"
 	      ZOrder		      -2
@@ -1933,14 +1702,20 @@ Library {
 	  Port {
 	    PortNumber		    1
 	    Name		    "<da_sym_in_c [deg]>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	  Port {
 	    PortNumber		    2
 	    Name		    "<da_sym_out_c [deg]>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	  Port {
 	    PortNumber		    3
 	    Name		    "<de_c [deg]>"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	}
 	Block {
@@ -1956,6 +1731,8 @@ Library {
 	  Port {
 	    PortNumber		    1
 	    Name		    "Deflection commands [deg]"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	}
 	Block {
@@ -1971,6 +1748,8 @@ Library {
 	  Port {
 	    PortNumber		    1
 	    Name		    "Actuator_Motion"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
 	  }
 	}
 	Block {
@@ -2143,8 +1922,10 @@ Library {
 	  SID			  "59"
 	  Name			  "Order of control surfaces:\n#1: Inner aileron RH\n#2: Outer aileron RH\n#3: Inner aileron LH\n#4: Outer a"
 	  "ileron LH\n#5: Elevator"
-	  Position		  [612, -122, 726, -48]
+	  Position		  [612, -122, 726, -42]
 	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
 	  HorizontalAlignment	  "center"
 	  VerticalAlignment	  "middle"
 	  ZOrder		  -1
@@ -2152,8 +1933,10 @@ Library {
 	Annotation {
 	  SID			  "60"
 	  Name			  "Order of actuators:\n#1: Inner aileron\n#2: Outer aileron\n#3: Elevator"
-	  Position		  [272, -110, 357, -60]
+	  Position		  [272, -110, 357, -56]
 	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
 	  HorizontalAlignment	  "center"
 	  VerticalAlignment	  "middle"
 	  ZOrder		  -2
